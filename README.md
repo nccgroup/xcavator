@@ -13,7 +13,9 @@ Released under AGPL. See LICENSE for more information.
 
 Prerequisites
 -------------
-Python 3.3 and [[https://pypi.python.org/pypi/pysmb | pysmb]]
+Python 3.3 and pysmb
+
+https://pypi.python.org/pypi/pysmb
 
 Options
 -------
