@@ -82,10 +82,10 @@ def create_new_conf(args):
             ip_range = input('Try again: ')
             ip_range_exp = validate_ip_range(ip_range)
     regex = input('Regex: ')
-    compRegex= ""
+    compregex= ""
     while True:
         try:
-            regex = re.compile(regex)
+            compregex = re.compile(regex)
             break
         except re.error as err:
             print('RegEx error: %s' %err)
@@ -99,7 +99,7 @@ def create_new_conf(args):
     
     with open(conf, 'w') as configfile:
         parser.write(configfile)
-    process_request(prot.lower(), port, user, passwd, ip_range_exp, regex, args)
+    process_request(prot.lower(), port, user, passwd, ip_range_exp, compregex, args)
 
 
 
