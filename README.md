@@ -2,7 +2,7 @@ xcavator
 ========
 A network data locater using credentials obtained during penetration tests.
 
-Xcavator is a tool that scans a range of IP addresses for services that host files (FTP and SMB at the moment) and for
+Xcavator is a tool that scans a range of IP addresses for services that host files (FTP, FTPS and SMB at the moment) and for
 given credentials it will try to download everything it can and scan within the files for interesting strings.
 
 Another mode is to download only those files that their filenames match a RegEx.
@@ -13,9 +13,7 @@ Released under AGPL. See LICENSE for more information.
 
 Prerequisites
 -------------
-Python 3.3 and pysmb
-
-https://pypi.python.org/pypi/pysmb
+Python 3.3 and [[https://pypi.python.org/pypi/pysmb | pysmb]]
 
 Options
 -------

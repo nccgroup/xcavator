@@ -16,10 +16,10 @@ import argparse
 
 
 #Add your own protocols to the list
-protocols = ['ftp', 'smb']
+protocols = ['ftp', 'smb', 'ftps']
 
 #Also add the default port
-default_port = ['21', '139']
+default_port = ['21', '139', '990']
 
 num_files = 0
 conf = ''
